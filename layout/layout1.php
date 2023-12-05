@@ -26,11 +26,9 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
                         <b>
-                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
                             <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
                         </b>
                         <span>
-                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
                             <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
                 </div>
                 <div class="navbar-collapse">
@@ -88,25 +86,26 @@
             <a href="#">Sumanas</a>
         </footer>
     </div>
-    <script src="https://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="../assets/js/waves.js"></script>
     <script src="../assets/js/sidebarmenu.js"></script>
     <script src="../assets/js/custom.min.js"></script>
     <script>
-    function loadContent(url) {
-        $.ajax({
-            url: url,
-            method: 'GET',
-            success: function (data) {
-                $('.container-fluid').html(data);
-            },
-            error: function () {
-                console.error('Failed to load content.');
-            }
-        });
-    }
-</script>
+        function loadContent(url) {
+            $.ajax({
+                url: url,
+                method: 'GET',
+                success: function(data) {
+                    $('.container-fluid').html(data);
+                },
+                error: function() {
+                    console.error('Failed to load content.');
+                }
+            });
+        }
+    </script>
 </body>
+
 </html>
