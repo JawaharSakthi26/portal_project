@@ -11,6 +11,7 @@
     <link href="../assets/css/style.min.css" rel="stylesheet">
     <link href="../assets/css/pages/dashboard1.css" rel="stylesheet">
     <link href="../assets/css/pages/footer.css" rel="stylesheet">
+    <link href="../assets/css/datatable.min.css" rel="stylesheet">
 </head>
 
 <body class="skin-blue fixed-layout">
@@ -87,6 +88,7 @@
         </footer>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/datatable.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/waves.js"></script>
     <script src="../assets/js/sidebarmenu.js"></script>
@@ -106,5 +108,4 @@
         }
     </script>
 </body>
-
 </html>

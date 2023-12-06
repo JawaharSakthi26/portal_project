@@ -1,8 +1,8 @@
 <div class="row page-titles">
-    <div class="col-md-5 align-self-center">
+    <div class="col-md-6 align-self-center">
         <h4 class="text-themecolor">User Management</h4>
     </div>
-    <div class="col-md-7 align-self-center text-end">
+    <div class="col-md-6 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
             <ol class="breadcrumb justify-content-end">
                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -16,13 +16,15 @@
         <div class="card">
             <div class="card-body">
                 <div class="row mb-3">
-                    <div class="col-md-12 text-end">
-                        <a href="javascript:void(0)"  onclick="loadContent('../user/create.php')" class="btn btn-primary">Create</a>
+                    <div class="col-md-6 text-start">
+                        <h4 class="card-title">User's list</h4>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <a href="javascript:void(0)" onclick="loadContent('../user/create.php')" class="btn btn-primary">Create New User</a>
                     </div>
                 </div>
-                <h4 class="card-title">User's list</h4>
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table" id="myTable">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -88,3 +90,7 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
