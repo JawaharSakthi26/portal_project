@@ -14,17 +14,13 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
+            <div class="card-header bg-info d-flex justify-content-between align-items-center">
+                <h4 class="m-b-0 text-white">User's List</h4>
+                <a href="javascript:void(0)" onclick="loadContent('../user/create.php')" class="btn btn-secondary">Create New User</a>
+            </div>
             <div class="card-body">
-                <div class="row mb-3">
-                    <div class="col-md-6 text-start">
-                        <h4 class="card-title">User's list</h4>
-                    </div>
-                    <div class="col-md-6 text-end">
-                        <a href="javascript:void(0)" onclick="loadContent('../user/create.php')" class="btn btn-primary">Create New User</a>
-                    </div>
-                </div>
                 <div class="table-responsive">
-                    <table class="table" id="myTable">
+                    <table id="myTable" class="display nowrap table table-hover table-striped border" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -43,9 +39,9 @@
                                 <td>Dev</td>
                                 <td><span class="label label-success">Available</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -55,9 +51,9 @@
                                 <td>Design</td>
                                 <td><span class="label label-danger">Removed</span> </td>
                                 <td>
-                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -67,9 +63,9 @@
                                 <td>Frontend</td>
                                 <td><span class="label label-warning">Other Team</span> </td>
                                 <td>
-                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -79,9 +75,9 @@
                                 <td>Network</td>
                                 <td><span class="label label-success">Available</span> </td>
                                 <td>
-                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
                         </tbody>
@@ -90,7 +86,6 @@
             </div>
         </div>
     </div>
-
     <script>
-        let table = new DataTable('#myTable');
+        $('#myTable').DataTable();
     </script>
