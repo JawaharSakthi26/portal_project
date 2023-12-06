@@ -9,7 +9,6 @@
     <meta name="author" content="">
     <title>Portal Website</title>
     <link href="../assets/css/style.min.css" rel="stylesheet">
-    <link href="../assets/css/pages/dashboard1.css" rel="stylesheet">
     <link href="../assets/css/pages/footer.css" rel="stylesheet">
     <link href="../assets/css/datatable.min.css" rel="stylesheet">
 </head>
@@ -91,7 +90,6 @@
     <script src="../assets/js/datatable.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/waves.js"></script>
-    <script src="../assets/js/sidebarmenu.js"></script>
     <script src="../assets/js/custom.min.js"></script>
     <script>
         function loadContent(url) {
