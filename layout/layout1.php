@@ -9,8 +9,9 @@
     <meta name="author" content="">
     <title>Portal Website</title>
     <link href="../assets/css/style.min.css" rel="stylesheet">
-    <link href="../assets/css/pages/footer.css" rel="stylesheet">
-    <link href="../assets/css/datatable.min.css" rel="stylesheet">
+    <link href="../assets/css/select2.min.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet"> 
+    <link href="../assets/css/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 
 <body class="skin-blue fixed-layout">
@@ -56,7 +57,6 @@
             <div class="scroll-sidebar">
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li class="user-pro"> <a class="waves-effect waves-dark" href="javascript:void(0)"><img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user-img" class="img-circle"><span class="hide-menu">Mark Jeckson</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-speedometer"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)" onclick="loadContent('../user/index.php')"><i class="icon-people"></i><span class="hide-menu">Users</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-package"></i><span class="hide-menu">Projects</span></a></li>
@@ -87,18 +87,22 @@
         </footer>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/datatable.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/custom.min.js"></script>
+    <script src="../assets/js/dataTables/jquery.dataTables.min.js"></script>
+    <script src="../assets/js/select2.full.min.js"></script>
     <script src="../assets/js/sidebarmenu.js"></script>
     <script src="../assets/js/waves.js"></script>
-    <script src="../assets/js/custom.min.js"></script>
     <script>
         function loadContent(url) {
             $.ajax({
                 url: url,
                 method: 'GET',
                 success: function(data) {
+                    console.log(data);
                     $('.container-fluid').html(data);
+                    $('#myTable').DataTable();
+                    $(".select2").select2();
                 },
                 error: function() {
                     console.error('Failed to load content.');

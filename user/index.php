@@ -86,6 +86,3 @@
             </div>
         </div>
     </div>
-    <script>
-        $('#myTable').DataTable();
-    </script>
