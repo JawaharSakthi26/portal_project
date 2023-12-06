@@ -1,12 +1,12 @@
 <div class="row page-titles">
     <div class="col-md-5 align-self-center">
-        <h4 class="text-themecolor">User Create</h4>
+        <h4 class="text-themecolor">User Management</h4>
     </div>
     <div class="col-md-7 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
             <ol class="breadcrumb justify-content-end">
                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                <li class="breadcrumb-item active">User Create</li>
+                <li class="breadcrumb-item active">User <?php echo $test == '1' ? 'Edit' : 'Create'; ?></li>
             </ol>
         </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">User Create</h4>
+                <h4 class="card-title">User <?php echo $test == '1' ? 'Edit' : 'Create'; ?></h4>
                 <form>
                     <div class="row">
                         <div class="col-md-6">
