@@ -85,17 +85,14 @@
     </footer>
     <script src="../../assets/plugins/jquery/jquery.min.js"></script>
     <script src="../../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="../../assets/plugins/waves/waves.js"></script>
-    <script src="../../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../assets/js/sidebarmenu.js"></script>
     <script src="../../assets/plugins/sticky/sticky-kit.min.js"></script>
+    <script src="../../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../assets/js/custom.min.js"></script>
     <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
     <script src="../../assets/plugins/select2/select2.full.min.js"></script>
-    <script src="../../assets/js/perfect-scrollbar.jquery.min.js"></script>
-    <script src="../../assets/js/sidebarmenu.js"></script>
-    <script src="../../assets/js/custom.min.js"></script>
-    <script>
-        $('#myTable').DataTable();
-        $(".select2").select2();
-    </script>
+    <script src="../../assets/custom.js"></script>
 </body>
 </html>
