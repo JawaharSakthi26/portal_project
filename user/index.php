@@ -1,11 +1,11 @@
 <div class="row page-titles">
-    <div class="col-md-6 align-self-center">
+    <div class="col-md-5 align-self-center">
         <h4 class="text-themecolor">User Management</h4>
     </div>
-    <div class="col-md-6 align-self-center text-end">
+    <div class="col-md-7 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
             <?php
-            $breadcrumbs = ['' => 'User',];
+            $breadcrumbs = ['' => 'User'];
             include('common/breadcrumb/breadcrumb.php');
             ?>
         </div>
@@ -20,7 +20,7 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table id="myTable" class="display nowrap table table-hover table-striped border" cellspacing="0" width="100%">
+                    <table id="user_list" class="display nowrap table table-hover table-striped border" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th>#</th>
