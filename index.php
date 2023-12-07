@@ -4,7 +4,6 @@ switch ($_GET['page']) {
     case 'user_list':
         $content = "user/index.php";
         break;
-
     case 'user_create':
         $content = 'user/create.php';
         break;
@@ -12,4 +11,5 @@ switch ($_GET['page']) {
         $content = 'user/edit.php';
         break;
 }
-include('layout/layout1.php');
+include('common/layout/layout1.php');
+include('common/layout/breadcrumb.php');

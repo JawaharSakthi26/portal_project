@@ -7,10 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Portal Website</title>
-    <link href="../assets/css/style.min.css" rel="stylesheet">
-    <link href="../assets/css/custom.css" rel="stylesheet">
-    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet">
-    <link href="../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../../assets/css/style.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 <body class="skin-blue fixed-layout">
     <div class="preloader">
@@ -23,12 +22,14 @@
         <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-dark">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="#">
                         <b>
                             <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
                         </b>
                         <span>
-                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span> 
+                    </a>
                 </div>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav me-auto">
@@ -82,14 +83,16 @@
         © 2023 Portal by sumanas.in
         <a href="#">Sumanas</a>
     </footer>
-    <script src="../assets/plugins/jquery/jquery.min.js"></script>
-    <script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
-    <script src="../assets/plugins/select2/select2.full.min.js"></script>
-    <script src="../assets/plugins/waves/waves.js"></script>
-    <script src="../assets/js/breadcrumbs.js"></script>
-    <script src="../assets/js/sidebarmenu.js"></script>
-    <script src="../assets/js/custom.min.js"></script>
+    <script src="../../assets/plugins/jquery/jquery.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/plugins/waves/waves.js"></script>
+    <script src="../../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="../../assets/plugins/sticky/sticky-kit.min.js"></script>
+    <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
+    <script src="../../assets/plugins/select2/select2.full.min.js"></script>
+    <script src="../../assets/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../assets/js/sidebarmenu.js"></script>
+    <script src="../../assets/js/custom.min.js"></script>
     <script>
         $('#myTable').DataTable();
         $(".select2").select2();

@@ -4,9 +4,7 @@
     </div>
     <div class="col-md-6 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
-            <ol class="breadcrumb justify-content-end" id="dynamicBreadcrumbs">
-
-            </ol>
+            <?php include('common/breadcrumb/breadcrumb.php') ?>
         </div>
     </div>
 </div>
