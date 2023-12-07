@@ -4,9 +4,8 @@
     </div>
     <div class="col-md-6 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
-            <ol class="breadcrumb justify-content-end">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                <li class="breadcrumb-item active">User's list</li>
+            <ol class="breadcrumb justify-content-end" id="dynamicBreadcrumbs">
+
             </ol>
         </div>
     </div>
@@ -16,7 +15,7 @@
         <div class="card">
             <div class="card-header bg-info d-flex justify-content-between align-items-center">
                 <h4 class="m-b-0 text-white">User's List</h4>
-                <a href="javascript:void(0)" onclick="loadContent('../user/create.php')" class="btn btn-secondary">Create New User</a>
+                <a href="?page=user_create" class="btn btn-secondary">Create New User</a>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -40,7 +39,7 @@
                                 <td><span class="label label-success">Available</span></td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="?page=user_edit" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
@@ -52,7 +51,7 @@
                                 <td><span class="label label-danger">Removed</span> </td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="?page=user_edit" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
@@ -64,7 +63,7 @@
                                 <td><span class="label label-warning">Other Team</span> </td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="?page=user_edit" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
@@ -76,7 +75,7 @@
                                 <td><span class="label label-success">Available</span> </td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
-                                    <a href="javascript:void(0)" onclick="loadContent('../user/edit.php')" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
+                                    <a href="?page=user_edit" class="btn btn-warning mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
                             </tr>
@@ -86,3 +85,4 @@
             </div>
         </div>
     </div>
+</div>

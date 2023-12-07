@@ -4,14 +4,12 @@
     </div>
     <div class="col-md-7 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
-            <ol class="breadcrumb justify-content-end">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                <li class="breadcrumb-item active">User <?php echo $test == '1' ? 'Edit' : 'Create'; ?></li>
+            <ol class="breadcrumb justify-content-end" id="dynamicBreadcrumbs">
+
             </ol>
         </div>
     </div>
 </div>
-
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
