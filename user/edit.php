@@ -19,8 +19,7 @@
             </div>
             <div class="card-body">
                 <form action="#" method="post">
-                    <?php $test = '1';
-                    include('_partials/form.php') ?>
+                    <?php include('_partials/form.php') ?>
                 </form>
             </div>
         </div>
