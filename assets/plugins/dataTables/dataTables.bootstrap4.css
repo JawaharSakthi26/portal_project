@@ -204,3 +204,8 @@ table.dataTable {
   div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child {
     padding-right: 0;
   }
+  ul.pagination > li.paginate_button:nth-of-type(2) a.page-link {
+    background-color: #03a9f3;
+    color: #fff;
+    border: #03a9f3;
+}
