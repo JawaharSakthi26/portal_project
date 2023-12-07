@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +8,10 @@
     <meta name="author" content="">
     <title>Portal Website</title>
     <link href="../assets/css/style.min.css" rel="stylesheet">
-    <link href="../assets/css/select2.min.css" rel="stylesheet">
-    <link href="../assets/css/custom.css" rel="stylesheet"> 
-    <link href="../assets/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
-
 <body class="skin-blue fixed-layout">
     <div class="preloader">
         <div class="loader">
@@ -36,7 +34,6 @@
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item"> <a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
                         <li class="nav-item"> <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)"><i class="icon-menu"></i></a> </li>
-                        <li class="nav-item"></li>
                     </ul>
                     <ul class="navbar-nav my-lg-0">
                         <li class="nav-item dropdown u-pro">
@@ -58,7 +55,7 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-speedometer"></i><span class="hide-menu">Dashboard</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="javascript:void(0)" onclick="loadContent('../user/index.php')"><i class="icon-people"></i><span class="hide-menu">Users</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="?page=user_list"><i class="icon-people"></i><span class="hide-menu">Users</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-package"></i><span class="hide-menu">Projects</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-server"></i><span class="hide-menu">Sonic Wall</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-people"></i><span class="hide-menu">Project Members</span></a></li>
@@ -75,40 +72,27 @@
                 </nav>
             </div>
         </aside>
-
         <div class="page-wrapper">
             <div class="container-fluid">
-
+                <?php include($content) ?>
             </div>
         </div>
-        <footer class="footer">
-            © 2021 Portal by sumanas.in
-            <a href="#">Sumanas</a>
-        </footer>
     </div>
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/custom.min.js"></script>
-    <script src="../assets/js/dataTables/jquery.dataTables.min.js"></script>
-    <script src="../assets/js/select2.full.min.js"></script>
+    <footer class="footer">
+        © 2023 Portal by sumanas.in
+        <a href="#">Sumanas</a>
+    </footer>
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
+    <script src="../assets/plugins/select2/select2.full.min.js"></script>
+    <script src="../assets/plugins/waves/waves.js"></script>
+    <script src="../assets/js/breadcrumbs.js"></script>
     <script src="../assets/js/sidebarmenu.js"></script>
-    <script src="../assets/js/waves.js"></script>
+    <script src="../assets/js/custom.min.js"></script>
     <script>
-        function loadContent(url) {
-            $.ajax({
-                url: url,
-                method: 'GET',
-                success: function(data) {
-                    console.log(data);
-                    $('.container-fluid').html(data);
-                    $('#myTable').DataTable();
-                    $(".select2").select2();
-                },
-                error: function() {
-                    console.error('Failed to load content.');
-                }
-            });
-        }
+        $('#myTable').DataTable();
+        $(".select2").select2();
     </script>
 </body>
 </html>
