@@ -12,4 +12,3 @@ switch ($_GET['page']) {
         break;
 }
 include('common/layout/layout1.php');
-include('common/layout/breadcrumb.php');

@@ -4,7 +4,10 @@
     </div>
     <div class="col-md-7 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
-            <?php include('common/breadcrumb/breadcrumb.php') ?>
+            <?php
+            $breadcrumbs = ['?page=user_list' => 'User', '' => 'Edit User'];
+            include('common/breadcrumb/breadcrumb.php');
+            ?>
         </div>
     </div>
 </div>

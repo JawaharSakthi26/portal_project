@@ -1,12 +1,11 @@
 <ol class="breadcrumb justify-content-end">
+    <li class="breadcrumb-item"><a href="">Home</a></li>
     <?php
-    $pageValue = isset($_GET['page']) ? $_GET['page'] : '';
-
-    $pageValue = preg_replace("/[^a-zA-Z0-9]/", " ", $pageValue);
-
-    if ($pageValue) {
-        echo '<li class="breadcrumb-item"><a href="">Home</a></li>
-        <li class="breadcrumb-item active">' . ucfirst($pageValue) . '</li>';
+    foreach ($breadcrumbs as $key => $value) {
+        if ($key != '')
+            echo '<li class="breadcrumb-item"><a href="' . $key . '">' . ucfirst($value) . '</a></li>';
+        else
+            echo '<li class="breadcrumb-item active">' . ucfirst($value) . '</li>';
     }
     ?>
 </ol>
