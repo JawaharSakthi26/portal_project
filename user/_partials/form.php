@@ -1,15 +1,29 @@
+<?php
+$roles = [
+    '1' => 'Dev',
+    '2' => 'Frontend',
+    '3' => 'Design',
+    '4' => 'Network',
+];
+
+$statuses = [
+    '1' => 'Active',
+    '2' => 'Inactive',
+    '3' => 'Archieved',
+];
+?>
 <div class="form-body">
     <div class="row p-t-20">
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Name</label>
-                <input type="text" class="form-control" name="name" placeholder="Enter Name" value="<?php echo $test == '1' ? 'Test' : ''; ?>">
+                <input type="text" class="form-control" name="name" placeholder="Enter Name">
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Code</label>
-                <input type="number" class="form-control" name="code" placeholder="Enter code" value="<?php echo $test == '1' ? '100' : ''; ?>">
+                <input type="number" class="form-control" name="code" placeholder="Enter code">
             </div>
         </div>
     </div>
@@ -19,10 +33,9 @@
                 <label class="form-label">Role</label>
                 <select class="form-control form-select select2" name="role" style="width: 100%; height:36px;">
                     <option selected> -- Choose role -- </option>
-                    <option value="1" <?php echo $test == '1' ? 'selected' : '' ?>>Dev</option>
-                    <option value="2">Frontend</option>
-                    <option value="3">Design</option>
-                    <option value="4">Network</option>
+                    <?php foreach ($roles as $key => $value) { ?>
+                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                    <?php } ?>
                 </select>
             </div>
         </div>
@@ -32,9 +45,9 @@
                 <label class="form-label">Status</label>
                 <select class="form-control form-select select2" name="status" style="width: 100%; height:36px;">
                     <option selected> -- Choose status -- </option>
-                    <option value="2">Removed</option>
-                    <option value="3">Other Team</option>
-                    <option value="3" <?php echo $test == '1' ? 'selected' : '' ?>>Available</option>
+                    <?php foreach ($statuses as $key => $value) { ?>
+                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                    <?php } ?>
                 </select>
             </div>
         </div>
