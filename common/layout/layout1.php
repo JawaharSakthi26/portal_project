@@ -8,8 +8,8 @@
     <meta name="author" content="">
     <title>Portal Website</title>
     <link href="../../assets/css/style.min.css" rel="stylesheet">
-    <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
     <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
 </head>
 <body class="skin-blue fixed-layout">
     <div class="preloader">
@@ -93,6 +93,6 @@
     <script src="../../assets/js/custom.min.js"></script>
     <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
     <script src="../../assets/plugins/select2/select2.full.min.js"></script>
-    <script src="../../assets/custom.js"></script>
+    <script src="../../assets/js/custom.js"></script>
 </body>
 </html>
