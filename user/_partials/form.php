@@ -31,7 +31,7 @@ $statuses = [
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Role</label>
-                <select class="form-control form-select w-100 h-100" id="role" name="role">
+                <select class="form-control form-select" id="role" name="role">
                     <option selected> -- Choose role -- </option>
                     <?php foreach ($roles as $key => $value) { ?>
                         <option value="<?php echo $key ?>"><?php echo $value ?></option>
@@ -43,7 +43,7 @@ $statuses = [
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Status</label>
-                <select class="form-control form-select w-100 h-100" id="status" name="status">
+                <select class="form-control form-select" id="status" name="status">
                     <option selected> -- Choose status -- </option>
                     <?php foreach ($statuses as $key => $value) { ?>
                         <option value="<?php echo $key ?>"><?php echo $value ?></option>
@@ -56,12 +56,11 @@ $statuses = [
 <hr>
 <div class="form-actions">
     <button type="submit" class="btn btn-success text-white"> Submit</button>
-    <button type="button" class="btn btn-secondary">Back</button>
+    <a href="?page=user_list" class="btn btn-secondary">Back</a>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        select2('#role');
-        select2('#status');
+    $(document).ready(function() {
+        select2('#role, #status');
     });
 </script>

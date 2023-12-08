@@ -10,6 +10,7 @@
     <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <script src="../../assets/plugins/jquery/jquery.min.js"></script>
 </head>
 <body class="skin-blue fixed-layout">
     <div class="preloader">
@@ -83,7 +84,6 @@
         © 2023 Portal by sumanas.in
         <a href="#">Sumanas</a>
     </footer>
-    <script src="../../assets/plugins/jquery/jquery.min.js"></script>
     <script src="../../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="../../assets/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="../../assets/plugins/waves/waves.js"></script>

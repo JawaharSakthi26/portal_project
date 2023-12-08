@@ -89,7 +89,7 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    $(document).ready(function() {
         datatable('#user_list');
-    });
+    })
 </script>
