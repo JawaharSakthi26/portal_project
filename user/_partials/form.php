@@ -29,24 +29,22 @@
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Status</label>
-                <select class="form-control form-select" id="status" name="status">
-                    <option selected> -- Choose status -- </option>
-                    <?php foreach ($statuses as $key => $value) { ?>
-                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
-                    <?php } ?>
-                </select>
+                <div class="switchery-demo m-b-30">
+                    <input type="checkbox" checked id="status" data-color="#3d3b3b" />
+                </div>
             </div>
         </div>
     </div>
 </div>
 <hr>
 <div class="form-actions">
-    <button type="submit" class="btn btn-primary"> Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
     <a href="?page=user_list" class="btn btn-dark">Back</a>
 </div>
 
 <script>
     $(document).ready(function() {
-        select2('#role, #status');
+        select2('#role');
+        toggle('#status');
     });
 </script>

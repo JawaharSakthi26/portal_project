@@ -10,6 +10,7 @@
     <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/switch/switchery.min.css" rel="stylesheet">
     <link href="../../assets/css/custom.css" rel="stylesheet">
     <script src="../../assets/plugins/jquery/jquery.min.js"></script>
 </head>
@@ -94,6 +95,7 @@
     <script src="../../assets/js/custom.min.js"></script>
     <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
     <script src="../../assets/plugins/select2/select2.full.min.js"></script>
-    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/plugins/switch/switchery.min.js"></script>
+    <script src="../../assets/js/custom.js"></script>   
 </body>
 </html>
