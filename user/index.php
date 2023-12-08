@@ -20,7 +20,7 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table id="user_list" class="display nowrap table table-hover table-striped border" cellspacing="0" width="100%">
+                    <table id="user_list" class="display nowrap table table-hover table-striped border w-100">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -87,3 +87,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        datatable('#user_list');
+    });
+</script>
