@@ -11,4 +11,5 @@ switch ($_GET['page']) {
         $content = 'user/edit.php';
         break;
 }
+include('common/helper.php');
 include('common/layout/layout1.php');

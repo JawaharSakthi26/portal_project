@@ -1,17 +1,3 @@
-<?php
-$roles = [
-    '1' => 'Dev',
-    '2' => 'Frontend',
-    '3' => 'Design',
-    '4' => 'Network',
-];
-
-$statuses = [
-    '1' => 'Active',
-    '2' => 'Inactive',
-    '3' => 'Archieved',
-];
-?>
 <div class="form-body">
     <div class="row">
         <div class="col-md-6">
