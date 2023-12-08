@@ -13,7 +13,7 @@ $statuses = [
 ];
 ?>
 <div class="form-body">
-    <div class="row p-t-20">
+    <div class="row">
         <div class="col-md-6">
             <div class="form-group">
                 <label class="form-label">Name</label>
@@ -55,8 +55,8 @@ $statuses = [
 </div>
 <hr>
 <div class="form-actions">
-    <button type="submit" class="btn btn-success text-white"> Submit</button>
-    <a href="?page=user_list" class="btn btn-secondary">Back</a>
+    <button type="submit" class="btn btn-primary"> Submit</button>
+    <a href="?page=user_list" class="btn btn-dark">Back</a>
 </div>
 
 <script>

@@ -14,7 +14,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
-            <div class="card-header bg-info">
+            <div class="card-header bg-megna">
                 <h4 class="m-b-0 text-white">User Create</h4>
             </div>
             <div class="card-body">

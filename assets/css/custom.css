@@ -1,0 +1,8 @@
+.dataTables_wrapper{
+  padding: 0;
+}
+
+.dataTables_paginate ul li.active a{
+  background-color: #01c0c8 !important;
+  border: #01c0c8 !important;
+}

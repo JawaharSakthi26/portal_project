@@ -10,9 +10,10 @@
     <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
     <script src="../../assets/plugins/jquery/jquery.min.js"></script>
 </head>
-<body class="skin-blue fixed-layout">
+<body class="skin-megna fixed-layout">
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
