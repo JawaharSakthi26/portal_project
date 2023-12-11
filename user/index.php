@@ -59,7 +59,6 @@
                     <table id="user_list" class="display nowrap table table-hover table-striped border w-100">
                         <thead>
                             <tr>
-                                <th>#</th>
                                 <th>Code</th>
                                 <th>Name</th>
                                 <th>Role</th>
@@ -70,7 +69,6 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
                                 <td>100</td>
                                 <td>Test</td>
                                 <td>Dev</td>
@@ -83,7 +81,6 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
                                 <td>101</td>
                                 <td>Test 2</td>
                                 <td>Frontend</td>
@@ -96,7 +93,6 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>3</td>
                                 <td>102</td>
                                 <td>Test 3</td>
                                 <td>Design</td>
@@ -109,7 +105,6 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>4</td>
                                 <td>103</td>
                                 <td>Test 4</td>
                                 <td>Network</td>
