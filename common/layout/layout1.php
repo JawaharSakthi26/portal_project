@@ -7,10 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Portal Website</title>
-    <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/plugins/dataTables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="../../assets/plugins/select2/select2.min.css" rel="stylesheet">
     <link href="../../assets/plugins/switch/switchery.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/wizard/steps.css" rel="stylesheet">
+    <link href="../../assets/plugins/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css"  rel="stylesheet">
+    <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/css/custom.css" rel="stylesheet">
     <script src="../../assets/plugins/jquery/jquery.min.js"></script>
 </head>
@@ -60,7 +63,7 @@
                     <ul id="sidebarnav">
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-speedometer"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=user_list"><i class="icon-people"></i><span class="hide-menu">Users</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-package"></i><span class="hide-menu">Projects</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="?page=project_list"><i class="ti-package"></i><span class="hide-menu">Projects</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-server"></i><span class="hide-menu">Sonic Wall</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-people"></i><span class="hide-menu">Project Members</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-people"></i><span class="hide-menu">Teams</span></a></li>
@@ -96,6 +99,10 @@
     <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
     <script src="../../assets/plugins/select2/select2.full.min.js"></script>
     <script src="../../assets/plugins/switch/switchery.min.js"></script>
+    <script src="../../assets/plugins/wizard/jquery.steps.min.js"></script>
+    <script src="../../assets/plugins/sweetalert/sweetalert2.min.js"></script>
+    <script src="../../assets/plugins/tinymce_6.8.2/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script src="../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <script src="../../assets/js/custom.js"></script>   
 </body>
 </html>
