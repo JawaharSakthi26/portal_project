@@ -7,5 +7,5 @@ function datatable(selector) {
 }
 
 function switchery(selector) {
-  new Switchery($(selector)[0], $($(selector)[0]).data());
+  new Switchery($(selector)[0], $(selector).data());
 }
