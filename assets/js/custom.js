@@ -7,7 +7,6 @@ function datatable(selector) {
 }
 
 function toggle(selector) {
-  $(selector).each(function () {
-    new Switchery($(this)[0], $(this).data());
-  });
+  var element = $(selector)[0];
+  new Switchery(element, $(element).data());
 }

@@ -30,7 +30,7 @@
             <div class="form-group">
                 <label class="form-label">Status</label>
                 <div class="switchery-demo m-b-30">
-                    <input type="checkbox" checked id="status" data-color="#3d3b3b" />
+                    <input type="checkbox" checked class="switchery" data-color="#3d3b3b" />
                 </div>
             </div>
         </div>
@@ -45,6 +45,6 @@
 <script>
     $(document).ready(function() {
         select2('#role');
-        toggle('#status');
+        toggle('.switchery');
     });
 </script>
