@@ -125,31 +125,31 @@
         <div class="col-md-12">
             <div class="form-group">
                 <label for="jobTitle1" class="form-label">Credentials </label>
-                <textarea id="demo_credentials" name="demo_credentials" placeholder="Credentials" class="form-control"></textarea>
+                <textarea id="demo_credentials" name="demo_credentials" class="form-control"></textarea>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
                 <label for="videoUrl1" class="form-label">Database </label>
-                <textarea id="demo_database" name="demo_database" placeholder="Database" class="form-control"></textarea>
+                <textarea id="demo_database" name="demo_database" class="form-control"></textarea>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
                 <label for="shortDescription1" class="form-label">cPanel </label>
-                <textarea id="demo_cpanel" name="demo_cpanel" placeholder="cPanel" class="form-control"></textarea>
+                <textarea id="demo_cpanel" name="demo_cpanel" class="form-control"></textarea>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
                 <label for="shortDescription1" class="form-label">WHM </label>
-                <textarea id="demo_whm" name="demo_whm" placeholder="WHM" class="form-control"></textarea>
+                <textarea id="demo_whm" name="demo_whm" class="form-control"></textarea>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
                 <label for="shortDescription1" class="form-label">Others </label>
-                <textarea id="demo_others" name="demo_others" placeholder="Others" class="form-control"></textarea>
+                <textarea id="demo_others" name="demo_others" class="form-control"></textarea>
             </div>
         </div>
     </div>

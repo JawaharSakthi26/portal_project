@@ -27,6 +27,7 @@
                                 <th>Version</th>
                                 <th>-</th>
                                 <th>-</th>
+                                <th>Development</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
