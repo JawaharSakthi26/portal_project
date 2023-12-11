@@ -6,7 +6,6 @@ function datatable(selector) {
   $(selector).DataTable();
 }
 
-function toggle(selector) {
-  var element = $(selector)[0];
-  new Switchery(element, $(element).data());
+function switchery(selector) {
+  new Switchery($(selector)[0], $($(selector)[0]).data());
 }
