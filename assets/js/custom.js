@@ -16,11 +16,20 @@ function formWizard(selector) {
     bodyTag: "section",
     transitionEffect: "fade",
     titleTemplate: '<span class="step">#index#</span> #title#',
+    showFinishButtonAlways: true,
     labels: {
+      next: "Next",
+      previous: "Previous",
       finish: "Submit",
     },
+    onStepChanged: function (event, currentIndex, priorIndex) {
+      if (selector == "#project-create" && currentIndex == "3") {
+        $(".add-user").trigger("click");
+      }
+    },
     onFinished: function (event, currentIndex) {
-      Swal.fire("Form Submitted!", "Your data have been saved!");
+      $(selector).submit();
+      Swal.fire("Form Submitted!", "Your data has been saved!");
     },
   });
 }
