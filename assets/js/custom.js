@@ -1,5 +1,10 @@
 function select2(selector) {
-  $(selector).select2();
+  $(selector).each(function () {
+    let value = $(this).data("placeholder");
+    $(this).select2({
+      placeholder: value,
+    });
+  });
 }
 
 function datatable(selector) {

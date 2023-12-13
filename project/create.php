@@ -29,9 +29,9 @@
 <script>
     $(document).ready(function() {
         formWizard('#project-create');
-        select2('#development, #ownership, #version');
+        select2('#development, #ownership, #technologies');
         switchery('#status');
-        texteditor('#documentation, #live_credentials, #live_database, #live_cpanel, #live_whm, #live_others, #live_others, #demo_credentials,  #demo_database, #demo_cpanel, #demo_whm, #demo_others');
+        texteditor('#documentation,#git_url, #live_credentials, #live_database, #live_cpanel, #live_whm, #live_others, #live_others, #demo_credentials,  #demo_database, #demo_cpanel, #demo_whm, #demo_others');
         datepicker('#start_date, #end_date');
 
         $("body").on("click", ".add-user", function() {
@@ -41,8 +41,8 @@
             <div class="row member-fields_row">
                 <div class="col-md-5 form-group">
                     <label for="user" class="form-label">User </label>
-                    <select name="user[]" class="form-control user">
-                        <option value="">-- Choose User --</option>
+                    <select name="user[]" class="form-control user" data-placeholder=" -- Choose User -- ">
+                        <option></option>
                         <?php foreach ($users as $key =>  $value) { ?>
                             <option value="<?php echo $key ?>"><?php echo $value ?></option>
                         <?php } ?>
@@ -50,19 +50,17 @@
                 </div>
                 <div class="col-md-5 form-group">
                     <label for="role" class="form-label">Role </label>
-                    <select name="role[]" class="form-control role">
-                        <option value="">-- Choose Role --</option>
+                    <select name="role[]" class="form-control role" data-placeholder=" -- Choose Role -- ">
+                        <option></option>
                         <?php foreach ($project_roles as $key =>  $value) { ?>
                             <option value="<?php echo $key ?>"><?php echo $value ?></option>
                         <?php } ?>
                     </select>               
                 </div>
                 <div class="col-md-2 form-group d-flex align-items-end">
-                    <button type="button" class="btn btn-danger remove-user" disabled><i class="ti-trash"></i></button>
+                    <button type="button" class="btn btn-danger remove-user"><i class="ti-trash"></i></button>
                 </div>
             </div>`);
-            $(".member-fields").find(".remove-user:not(:first)").prop("disabled", false);
-            $(".member-fields").find(".remove-user").first().prop("disabled", true);
 
             select2('.role, .user');
         });
