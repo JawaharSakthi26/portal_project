@@ -235,7 +235,7 @@ File: css
 .wizard-content .wizard > .actions > ul > li.disabled > a,
 .wizard-content .wizard > .actions > ul > li.disabled > a:focus,
 .wizard-content .wizard > .actions > ul > li.disabled > a:hover {
-  cursor: not-allowed;
+  display: none;
 }
 
 .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"],
