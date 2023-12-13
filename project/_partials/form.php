@@ -47,14 +47,14 @@
         <div class="col-md-6 form-group">
             <label for="jobTitle1" class="form-label">Start Date </label>
             <div class="input-group">
-                <input type="text" class="form-control" id="start_date" placeholder="mm/dd/yyyy">
+                <input type="text" class="form-control" id="start_date" placeholder="dd/mm/yyyy">
                 <span class="input-group-text"><i class="icon-calender"></i></span>
             </div>
         </div>
         <div class="col-md-6 form-group">
             <label for="videoUrl1" class="form-label">End Date </label>
             <div class="input-group">
-                <input type="text" class="form-control" id="end_date" placeholder="mm/dd/yyyy">
+                <input type="text" class="form-control" id="end_date" placeholder="dd/mm/yyyy">
                 <span class="input-group-text"><i class="icon-calender"></i></span>
             </div>
         </div>
