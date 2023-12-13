@@ -24,10 +24,9 @@
                         <thead>
                             <tr>
                                 <th>Project Name</th>
-                                <th>Version</th>
-                                <th>-</th>
-                                <th>-</th>
+                                <th>Technologies</th>
                                 <th>Development</th>
+                                <th>Git Ownership</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
@@ -35,10 +34,9 @@
                         <tbody>
                             <tr>
                                 <td>Project 1</td>
-                                <td>8.2.1</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td>React, Laravel</td>
                                 <td>Scratch</td>
+                                <td>Client</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
@@ -48,10 +46,9 @@
                             </tr>
                             <tr>
                                 <td>Project 2</td>
-                                <td>8.2.0</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td>Angular, Laravel</td>
                                 <td>Existing</td>
+                                <td>WWU</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
@@ -61,10 +58,9 @@
                             </tr>
                             <tr>
                                 <td>Project 3</td>
-                                <td>7.3.2</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td>React, Node</td>
                                 <td>Existing</td>
+                                <td>WWU</td>
                                 <td><span class="label label-danger">Inactive</span></td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
@@ -74,10 +70,9 @@
                             </tr>
                             <tr>
                                 <td>Project 4</td>
-                                <td>7.3.5</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td>Angular, Laravel</td>
                                 <td>Scratch</td>
+                                <td>Client</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
                                     <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
@@ -96,5 +91,7 @@
 <script>
     $(document).ready(function() {
         datatable('#project_list');
+        select2('#project');
+        switchery('#status');
     })
 </script>
