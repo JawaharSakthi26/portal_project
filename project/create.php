@@ -57,7 +57,7 @@
                         <?php } ?>
                     </select>               
                 </div>
-                <div class="col-md-2 form-group align-self-end">
+                <div class="col-md-2 form-group d-flex align-items-end">
                     <button type="button" class="btn btn-danger remove-user" disabled><i class="ti-trash"></i></button>
                 </div>
             </div>`);

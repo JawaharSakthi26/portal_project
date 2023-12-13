@@ -58,13 +58,14 @@
                 <span class="input-group-text"><i class="icon-calender"></i></span>
             </div>
         </div>
-        <div class="col-md-6 form-group">
+        <div class="col-md-6">
             <label class="form-label">Status</label>
-            <div class="switchery-demo m-b-30">
+            <div class="switchery-demo">
                 <input type="checkbox" checked id="status" data-color="#3d3b3b" />
             </div>
         </div>
     </div>
+    <hr>
 </section>
 <h6>Live Details</h6>
 <section>
@@ -85,11 +86,12 @@
             <label for="shortDescription1" class="form-label">WHM </label>
             <textarea id="live_whm" name="live_whm" class="form-control"></textarea>
         </div>
-        <div class="col-md-12 form-group">
+        <div class="col-md-12">
             <label for="shortDescription1" class="form-label">Others </label>
             <textarea id="live_others" name="live_others" class="form-control"></textarea>
         </div>
     </div>
+    <hr>
 </section>
 <h6>Demo Details</h6>
 <section>
@@ -110,11 +112,12 @@
             <label for="shortDescription1" class="form-label">WHM </label>
             <textarea id="demo_whm" name="demo_whm" class="form-control"></textarea>
         </div>
-        <div class="col-md-12 form-group">
+        <div class="col-md-12">
             <label for="shortDescription1" class="form-label">Others </label>
             <textarea id="demo_others" name="demo_others" class="form-control"></textarea>
         </div>
     </div>
+    <hr>
 </section>
 <h6>Member</h6>
 <section>
@@ -122,11 +125,11 @@
         <div class="member-fields col-md-12">
             <!-- Fields will be appended here -->
         </div>
-    </div>
-    <div class="row">
+    <!-- </div>
+    <div class="row"> -->
         <div class="col-md-2">
             <button type="button" class="btn btn-success add-user">Add New User</button>
         </div>
     </div>
+    <hr>
 </section>
-<hr>
