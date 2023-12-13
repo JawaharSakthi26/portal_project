@@ -45,6 +45,6 @@ function datepicker(selector) {
   $(selector).datepicker({
     autoclose: true,
     todayHighlight: true,
-    format:'dd/mm/yyyy',
+    format: "dd/mm/yyyy",
   });
 }
