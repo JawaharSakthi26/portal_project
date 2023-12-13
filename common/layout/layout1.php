@@ -30,10 +30,10 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
                         <b>
-                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="../../assets/images/logo_hamburger.png" alt="homepage" class="w-100"/>
                         </b>
                         <span>
-                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                            <img src="../../assets/images/logo_main.png" alt="homepage" class="w-50"/>
                         </span> 
                     </a>
                 </div>
@@ -44,7 +44,7 @@
                     </ul>
                     <ul class="navbar-nav my-lg-0">
                         <li class="nav-item dropdown u-pro">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/users/1.jpg" alt="user" class=""> <span class="hidden-md-down">Mark &nbsp;<i class="fa fa-angle-down"></i></span> </a>
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../assets/images/user.png" alt="user" class="img-fluid"> <span class="hidden-md-down">Admin &nbsp;<i class="fa fa-angle-down"></i></span> </a>
                             <div class="dropdown-menu dropdown-menu-end animated flipInY">
                                 <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
                                 <div class="dropdown-divider"></div>
