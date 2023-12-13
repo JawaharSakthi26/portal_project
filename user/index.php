@@ -32,7 +32,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label">Status</label>
-                                <div class="switchery-demo m-b-30">
+                                <div class="switchery-demo">
                                     <input type="checkbox" checked id="status" data-color="#3d3b3b" />
                                 </div>
                             </div>
