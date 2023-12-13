@@ -57,6 +57,7 @@
   font-size: 100%;
   margin-top: 5px;
   margin-left: 5px;
+  margin-bottom: 8px;
   padding: 0;
   max-width: 100%;
   resize: none;
@@ -346,7 +347,7 @@
 }
 .select2-container--default.select2-container--focus
   .select2-selection--multiple {
-  border: solid black 1px;
+  /* border: solid black 1px; */
   outline: 0;
 }
 .select2-container--default.select2-container--disabled
@@ -381,6 +382,8 @@
   outline: 0;
   box-shadow: none;
   -webkit-appearance: textfield;
+  position: relative;
+  top: 4px;
 }
 .select2-container--default .select2-results > .select2-results__options {
   max-height: 200px;

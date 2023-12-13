@@ -6,9 +6,8 @@
             <input type="text" class="form-control" placeholder="Test Project" name="name">
         </div>
         <div class="col-md-6 form-group">
-            <label for="date1" class="form-label">Version </label>
-            <select name="" class="form-control form-select" id="version" name="version">
-                <option selected> -- Choose Version -- </option>
+            <label for="date1" class="form-label">Technologies </label>
+            <select name="" class="form-control" id="technologies" multiple="multiple" data-placeholder=" -- Choose Technologies -- " name="technologies">
                 <?php foreach ($version as $key => $value) { ?>
                     <option value="<?php echo $key ?>"><?php echo $value ?></option>
                 <?php } ?>
@@ -23,16 +22,16 @@
         <div class="col-md-6 form-group">
             <label for="emailAddress1" class="form-label">Development</label>
             <select name="" class="form-control form-select" id="development" name="development">
-                <option selected> -- Choose Development -- </option>
+                <option>-- Choose Development --</option>
                 <?php foreach ($development as $key => $value) { ?>
                     <option value="<?php echo $key ?>"><?php echo $value ?></option>
                 <?php } ?>
             </select>
         </div>
         <div class="col-md-6 form-group">
-            <label for="emailAddress1" class="form-label">Ownership</label>
+            <label for="emailAddress1" class="form-label">Git Ownership</label>
             <select name="" class="form-control form-select" id="ownership" name="ownership">
-                <option selected> -- Choose Ownership -- </option>
+                <option>-- Choose Git Ownership --</option>
                 <?php foreach ($ownership as $key => $value) { ?>
                     <option value="<?php echo $key ?>"><?php echo $value ?></option>
                 <?php } ?>
@@ -43,6 +42,10 @@
         <div class="col-md-12 form-group">
             <label for="documentation" class="form-label">Project Details Documentation</label>
             <textarea name="project_details_documentation" class="form-control" id="documentation"></textarea>
+        </div>
+        <div class="col-md-12 form-group">
+            <label for="documentation" class="form-label">Git URL</label>
+            <textarea name="git_url" class="form-control" id="git_url"></textarea>
         </div>
         <div class="col-md-6 form-group">
             <label for="jobTitle1" class="form-label">Start Date </label>
@@ -119,14 +122,14 @@
     </div>
     <hr>
 </section>
-<h6>Member</h6>
+<h6>Members</h6>
 <section>
     <div class="row">
         <div class="member-fields col-md-12">
             <!-- Fields will be appended here -->
         </div>
-    <!-- </div>
-    <div class="row"> -->
+    </div>
+    <div class="row">
         <div class="col-md-2">
             <button type="button" class="btn btn-success add-user">Add New User</button>
         </div>
