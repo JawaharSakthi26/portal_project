@@ -28,31 +28,36 @@ function formWizard(selector) {
       finish: "Submit",
     },
     onInit: function (event, currentIndex) {
+      console.log(selector);
       if (currentIndex == 0) {
-        $('li > a[href="#previous"]').parent().attr("style", "display:none");
-        $('li > a[href="#next"]').parent().attr("style", "margin-left:0px");
+        $(selector + ' li > a[href="#previous"]').parent().attr("style", "display:none");
+        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:0px");
       }
     },
     onStepChanged: function (event, currentIndex, priorIndex) {
       if (currentIndex > 0) {
-        $('li > a[href="#previous"]').parent().attr("style", "");
-        $('li > a[href="#next"]').parent().attr("style", "margin-left:10px");
+        $(selector + ' li > a[href="#previous"]').parent().attr("style", "");
+        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:10px");
       } else {
-        $('li > a[href="#previous"]').parent().attr("style", "display:none");
-        $('li > a[href="#next"]').parent().attr("style", "margin-left:0px");
+        $(selector + ' li > a[href="#previous"]').parent().attr("style", "display:none");
+        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:0px");
       }
     },
     onFinished: function (event, currentIndex) {
       // $(selector).submit();
-      $.toast({
-        text: "Form Submitted Successfully!",
-        position: "top-right",
-        loaderBg: "#e3e3e3",
-        icon: "success",
-        hideAfter: 2000,
-        showHideTransition: "slide",
-      });
+      successToast("Form Submitted Successfully!");
     },
+  });
+}
+
+function successToast(message) {
+  $.toast({
+    text: message,
+    position: "top-right",
+    loaderBg: "#e3e3e3",
+    icon: "success",
+    hideAfter: 2000,
+    showHideTransition: "slide",
   });
 }
 
