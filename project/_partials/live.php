@@ -26,11 +26,13 @@
             </div>
         </div>
         <div class="col-md-12">
-            <div class="form-group">
-                <label class="form-label">Others </label>
-                <textarea id="live_others" name="live_others" class="form-control"></textarea>
-            </div>
+            <label class="form-label">Others </label>
+            <textarea id="live_others" name="live_others" class="form-control"></textarea>
         </div>
     </div>
     <hr>
 </section>
+
+<script>
+    texteditor('#live_credentials, #live_database, #live_cpanel, #live_whm, #live_others, #live_others');
+</script>

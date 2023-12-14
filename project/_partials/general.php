@@ -80,13 +80,18 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="form-group">
-                <label class="form-label">Status</label>
-                <div class="switchery-demo">
-                    <input type="checkbox" checked id="status" data-color="#3d3b3b" />
-                </div>
+            <label class="form-label">Status</label>
+            <div class="switchery-demo">
+                <input type="checkbox" checked id="status" data-color="#3d3b3b" />
             </div>
         </div>
     </div>
     <hr>
 </section>
+
+<script>
+    select2('#development, #ownership, #technologies');
+    switchery('#status');
+    texteditor('#documentation, #git_url');
+    datepicker('#start_date, #end_date');
+</script>

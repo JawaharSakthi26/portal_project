@@ -26,11 +26,13 @@
             </div>
         </div>
         <div class="col-md-12">
-            <div class="form-group">
-                <label class="form-label">Others </label>
-                <textarea id="demo_others" name="demo_others" class="form-control"></textarea>
-            </div>
+            <label class="form-label">Others </label>
+            <textarea id="demo_others" name="demo_others" class="form-control"></textarea>
         </div>
     </div>
     <hr>
 </section>
+
+<script>
+    texteditor('#demo_credentials,  #demo_database, #demo_cpanel, #demo_whm, #demo_others');
+</script>
