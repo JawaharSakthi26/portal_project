@@ -19,6 +19,9 @@ switch ($_GET['page']) {
     case 'project_edit':
         $content = 'project/edit.php';
         break;
+    case 'project_view':
+        $content = 'project/view.php';
+        break;
 }
 include('common/helper/helper.php');
 include('common/layout/layout1.php');

@@ -90,7 +90,7 @@
                                 <td>Client</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="?page=project_view" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                     <a href="?page=project_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
@@ -102,7 +102,7 @@
                                 <td>WWU</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="?page=project_view" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                     <a href="?page=project_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
@@ -114,7 +114,7 @@
                                 <td>WWU</td>
                                 <td><span class="label label-danger">Inactive</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="?page=project_view" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                     <a href="?page=project_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
@@ -126,7 +126,7 @@
                                 <td>Client</td>
                                 <td><span class="label label-success">Active</span></td>
                                 <td>
-                                    <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
+                                    <a href="?page=project_view" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                     <a href="?page=project_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                     <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                                 </td>
