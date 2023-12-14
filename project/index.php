@@ -15,6 +15,51 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header bg-megna d-flex justify-content-between align-items-center">
+                <h4 class="text-white">Advance Search</h4>
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="form-label">Development</label>
+                                <select class="form-control form-select" id="project" name="project">
+                                    <option selected> -- Choose Development -- </option>
+                                    <?php foreach ($development as $key => $value) { ?>
+                                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Technologies</label>
+                                <select class="form-control form-select" id="technology" name="technology">
+                                    <option selected> -- Choose Technology -- </option>
+                                    <?php foreach ($technologies as $key => $value) { ?>
+                                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                            <div class="col-md-2 mt-2">
+                                <label class="form-label">Status</label>
+                                <div class="switchery-demo">
+                                    <input type="checkbox" checked id="status" data-color="#3d3b3b" />
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header bg-megna d-flex justify-content-between align-items-center">
                 <h4 class="text-white">Project's List</h4>
                 <a href="?page=project_create" class="btn btn-secondary">Create New Project</a>
             </div>
@@ -91,7 +136,7 @@
 <script>
     $(document).ready(function() {
         datatable('#project_list');
-        select2('#project');
+        select2('#project, #technology');
         switchery('#status');
     })
 </script>
