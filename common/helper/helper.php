@@ -16,7 +16,7 @@ $ownership = [
     '2' => 'WWU'
 ];
 
-$version = [
+$technologies = [
     '1' => 'php 7.2.0',
     '2' => 'php 8.1.2',
     '3' => 'php 7.8',
