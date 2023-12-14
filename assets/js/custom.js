@@ -45,12 +45,12 @@ function formWizard(selector) {
     },
     onFinished: function (event, currentIndex) {
       // $(selector).submit();
-      successToast("Form Submitted Successfully!");
+      toastr("Form Submitted Successfully!");
     },
   });
 }
 
-function successToast(message) {
+function toastr(message) {
   $.toast({
     text: message,
     position: "top-right",
