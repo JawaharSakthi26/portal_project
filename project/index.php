@@ -22,27 +22,33 @@
                     <div class="form-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <label class="form-label">Development</label>
-                                <select class="form-control form-select" id="project" name="project">
-                                    <option selected> -- Choose Development -- </option>
-                                    <?php foreach ($development as $key => $value) { ?>
-                                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
-                                    <?php } ?>
-                                </select>
+                                <div class="form-group">
+                                    <label class="form-label">Development</label>
+                                    <select class="form-control form-select" id="project" name="project">
+                                        <option selected> -- Choose Development -- </option>
+                                        <?php foreach ($development as $key => $value) { ?>
+                                            <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                        <?php } ?>
+                                    </select>
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label">Technologies</label>
-                                <select class="form-control form-select" id="technology" name="technology">
-                                    <option selected> -- Choose Technology -- </option>
-                                    <?php foreach ($technologies as $key => $value) { ?>
-                                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
-                                    <?php } ?>
-                                </select>
+                                <div class="form-group">
+                                    <label class="form-label">Technologies</label>
+                                    <select class="form-control form-select" id="technology" name="technology">
+                                        <option selected> -- Choose Technology -- </option>
+                                        <?php foreach ($technologies as $key => $value) { ?>
+                                            <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                                        <?php } ?>
+                                    </select>
+                                </div>
                             </div>
                             <div class="col-md-2 mt-2">
-                                <label class="form-label">Status</label>
-                                <div class="switchery-demo">
-                                    <input type="checkbox" checked id="status" data-color="#3d3b3b" />
+                                <div class="form-group mb-0">
+                                    <label class="form-label">Status</label>
+                                    <div class="switchery-demo">
+                                        <input type="checkbox" checked id="status" data-color="#3d3b3b" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
