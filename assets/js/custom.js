@@ -43,8 +43,15 @@ function formWizard(selector) {
       }
     },
     onFinished: function (event, currentIndex) {
-      $(selector).submit();
-      Swal.fire("Form Submitted!", "Your data has been saved!");
+      // $(selector).submit();
+      $.toast({
+        text: "Form Submitted Successfully!",
+        position: "top-right",
+        loaderBg: "#e3e3e3",
+        icon: "success",
+        hideAfter: 2000,
+        showHideTransition: "slide", 
+      });
     },
   });
 }

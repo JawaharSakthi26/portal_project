@@ -13,6 +13,7 @@
     <link href="../../assets/plugins/wizard/steps.css" rel="stylesheet">
     <link href="../../assets/plugins/sweetalert/sweetalert2.min.css" rel="stylesheet">
     <link href="../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css"  rel="stylesheet">
+    <link href="../../assets/plugins/toast/jquery.toast.css" rel="stylesheet">
     <link href="../../assets/css/style.min.css" rel="stylesheet">
     <link href="../../assets/css/custom.css" rel="stylesheet">
     <script src="../../assets/plugins/jquery/jquery.min.js"></script>
@@ -103,6 +104,7 @@
     <script src="../../assets/plugins/sweetalert/sweetalert2.min.js"></script>
     <script src="../../assets/plugins/tinymce_6.8.2/tinymce/js/tinymce/tinymce.min.js"></script>
     <script src="../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="../../assets/plugins/toast/jquery.toast.js"></script>
     <script src="../../assets/js/custom.js"></script>   
 </body>
 </html>
