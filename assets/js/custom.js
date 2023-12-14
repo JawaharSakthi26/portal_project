@@ -29,17 +29,17 @@ function formWizard(selector) {
     },
     onInit: function (event, currentIndex) {
       if (currentIndex == 0) {
-        $(".actions > ul > li:first-child").attr("style", "display:none");
-        $(".actions > ul > li:nth-child(2)").attr("style", "margin-left:0px");
+        $('li > a[href="#previous"]').parent().attr("style", "display:none");
+        $('li > a[href="#next"]').parent().attr("style", "margin-left:0px");
       }
     },
     onStepChanged: function (event, currentIndex, priorIndex) {
       if (currentIndex > 0) {
-        $(".actions > ul > li:first-child").attr("style", "");
-        $(".actions > ul > li:nth-child(2)").attr("style", "margin-left:10px");
+        $('li > a[href="#previous"]').parent().attr("style", "");
+        $('li > a[href="#next"]').parent().attr("style", "margin-left:10px");
       } else {
-        $(".actions > ul > li:first-child").attr("style", "display:none");
-        $(".actions > ul > li:nth-child(2)").attr("style", "margin-left:0px");
+        $('li > a[href="#previous"]').parent().attr("style", "display:none");
+        $('li > a[href="#next"]').parent().attr("style", "margin-left:0px");
       }
     },
     onFinished: function (event, currentIndex) {
@@ -50,7 +50,7 @@ function formWizard(selector) {
         loaderBg: "#e3e3e3",
         icon: "success",
         hideAfter: 2000,
-        showHideTransition: "slide", 
+        showHideTransition: "slide",
       });
     },
   });
