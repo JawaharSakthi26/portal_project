@@ -37,10 +37,9 @@ function formWizard(selector) {
       if (currentIndex > 0) {
         $(".actions > ul > li:first-child").attr("style", "");
         $(".actions > ul > li:nth-child(2)").attr("style", "margin-left:10px");
-      } 
-
-      if (selector == "#project-create" && currentIndex == "3") {
-        $(".add-user").trigger("click");
+      } else {
+        $(".actions > ul > li:first-child").attr("style", "display:none");
+        $(".actions > ul > li:nth-child(2)").attr("style", "margin-left:0px");
       }
     },
     onFinished: function (event, currentIndex) {
