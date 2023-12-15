@@ -22,7 +22,6 @@
                     <table id="project_members_list" class="display nowrap table table-hover table-striped border w-100">
                         <thead>
                             <tr>
-                                <th>S.NO</th>
                                 <th>Projects</th>
                                 <th>Platform</th>
                                 <th>Development</th>
@@ -32,7 +31,6 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
                                 <td>Project 1</td>
                                 <td>CI & Laravel Vue</td>
                                 <td>Scratch</td>
@@ -40,7 +38,6 @@
                                 <td>Dev-1, Dev-2, Dev-3 (Dev-4, Dev-5)</td>
                             </tr>
                             <tr>
-                                <td>2</td>
                                 <td>Project 2</td>
                                 <td>PHP</td>
                                 <td>Existing</td>
@@ -48,7 +45,6 @@
                                 <td>Dev-1, Dev-2 (Dev-3, Dev-4)</td>
                             </tr>
                             <tr>
-                                <td>3</td>
                                 <td>Project 3</td>
                                 <td>Laravel Vue</td>
                                 <td>Existing</td>
@@ -56,7 +52,6 @@
                                 <td>Dev-1, Dev-2, Dev-3, Dev-4 (Dev-5, Dev-6)</td>
                             </tr>
                             <tr>
-                                <td>4</td>
                                 <td>Project 4</td>
                                 <td>Python Rasa</td>
                                 <td>Scratch</td>
@@ -82,19 +77,23 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>NYU - <b>Ranjith</b></p>
+                        <label class="form-label fw-normal">NYU</label>
+                        <p>Ranjith</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>MzeroA - <b>Ranjith</b></p>
+                        <label class="form-label fw-normal">MzeroA</label>
+                        <p>Ranjith</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>DoorSystem - <b>Saravana</b></p>
+                        <label class="form-label fw-normal">DoorSystem</label>
+                        <p>Saravana</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>10XScrapping - <b>Stanley, Ranjith</b></p>
+                        <label class="form-label fw-normal">10XScrapping</label>
+                        <p>Stanley, Ranjith</p>
                     </div>
                 </div>
             </div>
@@ -108,19 +107,23 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Facilitv - <b>Hari</b></p>
+                        <label class="form-label fw-normal">Facilitv</label>
+                        <p>Hari</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>Primo - <b>Panner, Hari</b></p>
+                        <label class="form-label fw-normal">Primo</label>
+                        <p>Panner, Hari</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>CheckIssuing - <b>Kannan</b></p>
+                        <label class="form-label fw-normal">CheckIssuing</label>
+                        <p>Kannan</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>RealEstateBot - <b>Nadesh</b></p>
+                        <label class="form-label fw-normal">RealEstateBot</label>
+                        <p>Nadesh</p>
                     </div>
                 </div>
             </div>
@@ -136,19 +139,23 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>YIP - <b>Manoj</b></p>
+                        <label class="form-label fw-normal">YIP</label>
+                        <p>Manoj</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>LQDigital - <b>Vinoth, Manoj</b></p>
+                        <label class="form-label fw-normal">LQDigital</label>
+                        <p>Vinoth, Manoj</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>NewMomSchool - <b>Vinoth</b></p>
+                        <label class="form-label fw-normal">NewMomSchool</label>
+                        <p>Vinoth</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>OpenCharges - <b>Nantha</b></p>
+                        <label class="form-label fw-normal">OpenCharges</label>
+                        <p>Nantha</p>
                     </div>
                 </div>
             </div>
@@ -162,27 +169,26 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>NewMomSchool - <b>Athavan</b></p>
+                        <label class="form-label fw-normal">NNewMomSchoolYU</label>
+                        <p>Athavan</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>MzeroA - <b>Athavan</b></p>
+                        <label class="form-label fw-normal">MzeroA</label>
+                        <p>Athavan</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>12HourADI - <b>Praba, Naren</b></p>
+                        <label class="form-label fw-normal">12HourADI</label>
+                        <p>Praba, Naren</p>
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <p>Beachify - <b>Naren</b></p>
+                        <label class="form-label fw-normal">Beachify</label>
+                        <p>Naren</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function() {
-        datatable('#project_members_list');
-    })
-</script>
