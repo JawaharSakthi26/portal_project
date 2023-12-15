@@ -15,7 +15,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">Sonicwall Create</h4>
+                <h4 class="m-0 text-white">Sonicwall Create</h4>
             </div>
             <div class="card-body">
                 <form action="#" method="post">

@@ -15,7 +15,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">General Info</h4>
+                <h4 class="m-0 text-white">General Info</h4>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -76,7 +76,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">Members</h4>
+                <h4 class="m-0 text-white">Members</h4>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -118,7 +118,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">Live Details</h4>
+                <h4 class="m-0 text-white">Live Details</h4>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -153,7 +153,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">Local Details</h4>
+                <h4 class="m-0 text-white">Local Details</h4>
             </div>
             <div class="card-body">
                 <div class="row">

@@ -15,7 +15,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-b-0 text-white">Project Create</h4>
+                <h4 class="m-0 text-white">Project Create</h4>
             </div>
             <div class="card-body wizard-content">
                 <form action="" method="" id="project_create" class="wizard-circle" autocomplete="off">

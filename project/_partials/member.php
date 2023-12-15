@@ -1,9 +1,7 @@
 <h6>Members</h6>
 <section>
     <div class="row">
-        <div class="member_fields col-md-12">
-            <!-- Fields will be appended here -->
-        </div>
+        <div class="member_fields col-md-12"></div>
     </div>
     <div class="row">
         <div class="col-md-2">
@@ -58,6 +56,5 @@
 
     $("body").on("click", ".remove_user", function() {
         $(this).closest(".member_fields_row").remove();
-        console.log("deleted");
     });
 </script>

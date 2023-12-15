@@ -96,7 +96,6 @@
     <script src="../../assets/js/sidebarmenu.js"></script>
     <script src="../../assets/plugins/sticky/sticky-kit.min.js"></script>
     <script src="../../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <script src="../../assets/js/custom.min.js"></script>
     <script src="../../assets/plugins/dataTables/jquery.dataTables.min.js"></script>
     <script src="../../assets/plugins/select2/select2.full.min.js"></script>
     <script src="../../assets/plugins/switch/switchery.min.js"></script>
@@ -105,6 +104,7 @@
     <script src="../../assets/plugins/tinymce_6.8.2/tinymce/js/tinymce/tinymce.min.js"></script>
     <script src="../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <script src="../../assets/plugins/toast/jquery.toast.js"></script>
+    <script src="../../assets/js/custom.min.js"></script>
     <script src="../../assets/js/custom.js"></script>   
 </body>
 </html>

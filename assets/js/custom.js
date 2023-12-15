@@ -27,22 +27,6 @@ function formWizard(selector) {
       previous: "Previous",
       finish: "Submit",
     },
-    onInit: function (event, currentIndex) {
-      console.log(selector);
-      if (currentIndex == 0) {
-        $(selector + ' li > a[href="#previous"]').parent().attr("style", "display:none");
-        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:0px");
-      }
-    },
-    onStepChanged: function (event, currentIndex, priorIndex) {
-      if (currentIndex > 0) {
-        $(selector + ' li > a[href="#previous"]').parent().attr("style", "");
-        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:10px");
-      } else {
-        $(selector + ' li > a[href="#previous"]').parent().attr("style", "display:none");
-        $(selector + ' li > a[href="#next"]').parent().attr("style", "margin-left:0px");
-      }
-    },
     onFinished: function (event, currentIndex) {
       // $(selector).submit();
       toastr("Form Submitted Successfully!");

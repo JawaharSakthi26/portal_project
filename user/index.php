@@ -15,7 +15,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="text-white mt-2">Advance Search</h4>
+                <h4 class="m-0 text-white">Advance Search</h4>
             </div>
             <div class="card-body">
                 <form action="">
@@ -54,75 +54,74 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
-            <div class="card-header bg-megna d-flex justify-content-between">
-                <h4 class="text-white mt-2">User's List</h4>
+            <div class="card-header bg-megna d-flex justify-content-between align-items-center">
+                <h4 class="m-0 text-white">User's List</h4>
                 <a href="?page=user_create" class="btn btn-secondary pt-2">Create New User</a>
             </div>
-        </div>
-        <div class="card-body">
-            <div class="table-responsive">
-                <table id="user_list" class="display nowrap table table-hover table-striped border w-100">
-                    <thead>
-                        <tr>
-                            <th>Code</th>
-                            <th>Name</th>
-                            <th>Role</th>
-                            <th>Status</th>
-                            <th>Created At</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>100</td>
-                            <td>Test</td>
-                            <td>Dev</td>
-                            <td><span class="label label-success">Active</span></td>
-                            <td>11/12/2023</td>
-                            <td>
-                                <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
-                                <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>101</td>
-                            <td>Test 2</td>
-                            <td>Frontend</td>
-                            <td><span class="label label-danger">Inactive</span></td>
-                            <td>11/12/2023</td>
-                            <td>
-                                <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
-                                <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>102</td>
-                            <td>Test 3</td>
-                            <td>Design</td>
-                            <td><span class="label label-danger">Inactive</span></td>
-                            <td>11/12/2023</td>
-                            <td>
-                                <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
-                                <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>103</td>
-                            <td>Test 4</td>
-                            <td>Network</td>
-                            <td><span class="label label-success">Active</span></td>
-                            <td>11/12/2023</td>
-                            <td>
-                                <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
-                                <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="user_list" class="display nowrap table table-hover table-striped border w-100">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                                <th>Created At</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>100</td>
+                                <td>Test</td>
+                                <td>Dev</td>
+                                <td><span class="label label-success">Active</span></td>
+                                <td>11/12/2023</td>
+                                <td>
+                                    <a href="#" class="btn btn-success mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>101</td>
+                                <td>Test 2</td>
+                                <td>Frontend</td>
+                                <td><span class="label label-danger">Inactive</span></td>
+                                <td>11/12/2023</td>
+                                <td>
+                                    <a href="#" class="btn btn-success mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td>Test 3</td>
+                                <td>Design</td>
+                                <td><span class="label label-danger">Inactive</span></td>
+                                <td>11/12/2023</td>
+                                <td>
+                                    <a href="#" class="btn btn-success mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td>Test 4</td>
+                                <td>Network</td>
+                                <td><span class="label label-success">Active</span></td>
+                                <td>11/12/2023</td>
+                                <td>
+                                    <a href="#" class="btn btn-success mx-1"><i class="icon-note"></i></a>
+                                    <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <script>
