@@ -45,10 +45,8 @@
                 <label for="" class="form-label fw-normal">End Date</label>
                 <p>14/12/2023</p>
                 <hr>
-                <div class="form-group mb-0">
-                    <label for="" class="form-label fw-normal">Status</label>
-                    <p><span class="label label-success">Active</span></p>
-                </div>
+                <label for="" class="form-label fw-normal">Status</label>
+                <p><span class="label label-success">Active</span></p>
             </div>
         </div>
     </div>
@@ -71,10 +69,8 @@
                 <label for="" class="form-label fw-normal">Tester</label>
                 <p>User 6, User 7, User 8</p>
                 <hr>
-                <div class="form-group  mb-0">
-                    <label for="" class="form-label fw-normal">Member</label>
-                    <p>User 9, User 10, User 11</p>
-                </div>
+                <label for="" class="form-label fw-normal">Member</label>
+                <p>User 9, User 10, User 11</p>
             </div>
         </div>
     </div>
@@ -98,10 +94,9 @@
                 <label for="" class="form-label fw-normal">WHM</label>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias hic minima nisi quasi magni doloremque tenetur ut amet consequuntur vel.</p>
                 <hr>
-                <div class="form-group mb-0">
-                    <label for="" class="form-label fw-normal">Others</label>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quibusdam veniam eos quisquam nobis dignissimos voluptatem qui doloremque asperiores minima!</p>
-                </div>
+                <label for="" class="form-label fw-normal">Others</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quibusdam veniam eos quisquam nobis dignissimos voluptatem qui doloremque asperiores minima!</p>
+
             </div>
         </div>
     </div>
