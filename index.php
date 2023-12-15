@@ -28,6 +28,12 @@ switch ($_GET['page']) {
     case 'sonicwall_create':
         $content = 'sonicwall/create.php';
         break;
+    case 'team_list':
+        $content = 'team/index.php';
+        break;
+    case 'team_create':
+        $content = 'team/create.php';
+        break;
 }
 include('common/helper/helper.php');
 include('common/layout/layout1.php');
