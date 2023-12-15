@@ -14,8 +14,8 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
-            <div class="card-header bg-megna d-flex justify-content-between align-items-center">
-                <h4 class="text-white">Advance Search</h4>
+            <div class="card-header bg-megna">
+                <h4 class="text-white mt-2">Advance Search</h4>
             </div>
             <div class="card-body">
                 <form action="">
@@ -65,9 +65,9 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
-            <div class="card-header bg-megna d-flex justify-content-between align-items-center">
-                <h4 class="text-white">Project's List</h4>
-                <a href="?page=project_create" class="btn btn-secondary">Create New Project</a>
+            <div class="card-header bg-megna d-flex justify-content-between">
+                <h4 class="text-white mt-2">Project's List</h4>
+                <a href="?page=user_create" class="btn btn-secondary">Create New Project</a>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
