@@ -56,7 +56,7 @@
         <div class="card">
             <div class="card-header bg-megna d-flex justify-content-between">
                 <h4 class="text-white mt-2">User's List</h4>
-                <a href="?page=user_create" class="btn btn-secondary">Create New User</a>
+                <a href="?page=user_create" class="btn btn-secondary pt-2">Create New User</a>
             </div>
         </div>
         <div class="card-body">
@@ -80,7 +80,6 @@
                             <td><span class="label label-success">Active</span></td>
                             <td>11/12/2023</td>
                             <td>
-                                <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                 <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                 <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                             </td>
@@ -92,7 +91,6 @@
                             <td><span class="label label-danger">Inactive</span></td>
                             <td>11/12/2023</td>
                             <td>
-                                <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                 <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                 <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                             </td>
@@ -104,7 +102,6 @@
                             <td><span class="label label-danger">Inactive</span></td>
                             <td>11/12/2023</td>
                             <td>
-                                <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                 <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                 <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                             </td>
@@ -116,7 +113,6 @@
                             <td><span class="label label-success">Active</span></td>
                             <td>11/12/2023</td>
                             <td>
-                                <a href="#" class="btn btn-info mx-1"><i class="icon-eye"></i></a>
                                 <a href="?page=user_edit" class="btn btn-success mx-1"><i class="icon-note"></i></a>
                                 <a href="#" class="btn btn-danger mx-1"><i class="icon-trash"></i></a>
                             </td>

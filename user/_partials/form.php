@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <div class="form-group">
+            <div class="form-group mb-0">
                 <label class="form-label">Role</label>
                 <select class="form-control form-select" id="role" name="role">
                     <option selected> -- Choose role -- </option>
@@ -27,9 +27,9 @@
         </div>
 
         <div class="col-md-6">
-            <div class="form-group">
+            <div class="form-group mb-0">
                 <label class="form-label">Status</label>
-                <div class="switchery-demo m-b-30">
+                <div class="switchery-demo">
                     <input type="checkbox" checked id="status" data-color="#3d3b3b" />
                 </div>
             </div>

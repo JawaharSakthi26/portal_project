@@ -67,7 +67,7 @@
         <div class="card">
             <div class="card-header bg-megna d-flex justify-content-between">
                 <h4 class="text-white mt-2">Project's List</h4>
-                <a href="?page=user_create" class="btn btn-secondary">Create New Project</a>
+                <a href="?page=user_create" class="btn btn-secondary pt-2">Create New Project</a>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
