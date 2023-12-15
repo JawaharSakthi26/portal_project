@@ -38,10 +38,16 @@ switch ($_GET['page']) {
         $content = 'project_member/index.php';
         break;
     case 'technology_list':
-        $content = 'technology/index.php';
+        $content = 'settings/technology/index.php';
         break;
     case 'technology_create':
-        $content = 'technology/create.php';
+        $content = 'settings/technology/create.php';
+        break;
+    case 'role_list':
+        $content = 'settings/role/index.php';
+        break;
+    case 'role_create':
+        $content = 'settings/role/create.php';
         break;
 }
 include('common/helper/helper.php');

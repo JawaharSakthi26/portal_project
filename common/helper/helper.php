@@ -43,6 +43,11 @@ $projects = [
     '2' => 'Project 2',
     '3' => 'Project 3',
     '4' => 'Project 4',
-]
+];
 
-?>
+$permissions = [
+    '1' => 'List',
+    '2' => 'Create',
+    '3' => 'Edit',
+    '4' => 'Delete',
+];
