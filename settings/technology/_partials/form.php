@@ -13,10 +13,3 @@
     <button type="submit" class="btn btn-primary">Submit</button>
     <a href="?page=technology_list" class="btn btn-dark">Back</a>
 </div>
-
-<script>
-    $(document).ready(function() {
-        select2('#role');
-        switchery('#status');
-    });
-</script>
