@@ -37,6 +37,12 @@ switch ($_GET['page']) {
     case 'project_members_list':
         $content = 'project_member/index.php';
         break;
+    case 'technology_list':
+        $content = 'technology/index.php';
+        break;
+    case 'technology_create':
+        $content = 'technology/create.php';
+        break;
 }
 include('common/helper/helper.php');
 include('common/layout/layout1.php');
