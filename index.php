@@ -22,6 +22,12 @@ switch ($_GET['page']) {
     case 'project_view':
         $content = 'project/view.php';
         break;
+    case 'sonicwall_list':
+        $content = 'sonicwall/index.php';
+        break;
+    case 'sonicwall_create':
+        $content = 'sonicwall/create.php';
+        break;
 }
 include('common/helper/helper.php');
 include('common/layout/layout1.php');
