@@ -34,6 +34,9 @@ switch ($_GET['page']) {
     case 'team_create':
         $content = 'team/create.php';
         break;
+    case 'project_members_list':
+        $content = 'project_member/index.php';
+        break;
 }
 include('common/helper/helper.php');
 include('common/layout/layout1.php');

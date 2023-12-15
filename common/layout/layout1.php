@@ -66,7 +66,7 @@
                         <li> <a class="waves-effect waves-dark" href="?page=user_list"><i class="icon-people"></i><span class="hide-menu">Users</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=project_list"><i class="ti-package"></i><span class="hide-menu">Projects</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=sonicwall_list"><i class="ti-server"></i><span class="hide-menu">Sonic Wall</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="icon-people"></i><span class="hide-menu">Project Members</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="?page=project_members_list"><i class="icon-people"></i><span class="hide-menu">Project Members</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="?page=team_list"><i class="icon-people"></i><span class="hide-menu">Teams</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-notepad"></i><span class="hide-menu">Bart Sheet Access</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="javascript:void(0)"><i class="ti-write"></i><span class="hide-menu">Reports</span></a></li>
