@@ -5,7 +5,7 @@
     <div class="col-md-7 align-self-center text-end">
         <div class="d-flex justify-content-end align-items-center">
             <?php
-            $breadcrumbs = ['?page=team_list' => 'Teams', '' => 'Create Team'];
+            $breadcrumbs = ['?page=team_list' => 'Team', '' => 'Create Team'];
             include('common/breadcrumb/breadcrumb.php');
             ?>
         </div>
