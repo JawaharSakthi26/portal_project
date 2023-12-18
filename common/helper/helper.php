@@ -36,6 +36,8 @@ $project_roles = [
     '3' => 'Heirarchy Head',
     '4' => 'Tester',
     '5' => 'Developer',
+    '6' => 'Designer',
+    '7' => 'DevOps',
 ];
 
 $projects = [
@@ -50,4 +52,10 @@ $permissions = [
     '2' => 'Create',
     '3' => 'Edit',
     '4' => 'Delete',
+];
+
+$project_type = [
+    '1' => 'Regular',
+    '2' => 'Weekly',
+    '3' => 'Hold/Some times '
 ];
