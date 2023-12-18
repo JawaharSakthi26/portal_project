@@ -76,3 +76,27 @@
 
 
 /** Stepper Button Changes End **/
+
+.form-group.required .form-label:after {
+  content: "*";
+  color: red;
+}
+
+.project_head{
+  color: rgb(245, 33, 33);
+  font-weight: bold;
+}
+
+.dedicated_dev{
+  color: rgb(32, 32, 249);
+  font-weight: bold;
+}
+
+.helpful_dev{
+  color: rgb(212, 42, 227);
+  font-weight: bold;
+}
+
+.worked_dev{
+  font-weight: bold;
+}
