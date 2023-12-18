@@ -21,8 +21,8 @@
     function appendUser() {
         const user_field = `<div class="row member_fields_row">
                 <div class="col-md-5">
-                    <div class="form-group">
-                        <label for="user" class="form-label">User </label>
+                    <div class="form-group required">
+                        <label for="user" class="form-label">User</label>
                         <select name="user[${user_index}][name]" class="form-control user" data-placeholder=" -- Choose User -- ">
                             <option></option>
                             <?php foreach ($users as $key =>  $value) { ?>
@@ -32,8 +32,8 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="form-group">
-                        <label for="role" class="form-label">Role </label>
+                    <div class="form-group required">
+                        <label for="role" class="form-label">Role</label>
                         <select name="user[${user_index}][role]" class="form-control role" data-placeholder=" -- Choose Role -- ">
                             <option></option>
                             <?php foreach ($project_roles as $key =>  $value) { ?>

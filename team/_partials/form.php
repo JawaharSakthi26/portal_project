@@ -1,13 +1,13 @@
 <div class="form-body">
     <div class="row">
         <div class="col-md-6">
-            <div class="form-group">
+            <div class="form-group required">
                 <label class="form-label">Name</label>
                 <input type="text" class="form-control" name="name" placeholder="Enter Name">
             </div>
         </div>
         <div class="col-md-6">
-            <div class="form-group">
+            <div class="form-group required">
                 <label class="form-label">Heirarchy Head</label>
                 <select class="form-control form-select" id="heirarchy_head" name="role">
                     <option selected> -- Choose Heirarchy Head -- </option>
@@ -20,7 +20,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <div class="form-group mb-0">
+            <div class="form-group required mb-0">
                 <label class="form-label">Members</label>
                 <select class="form-control form-select" id="members" data-placeholder="-- Select Team Members --" multiple="multiple" name="role">
                     <?php foreach ($users as $key => $value) { ?>

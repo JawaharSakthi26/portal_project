@@ -1,7 +1,7 @@
 <div class="form-body">
     <div class="row">
         <div class="col-md-12">
-            <div class="form-group">
+            <div class="form-group required">
                 <label class="form-label">Role</label>
                 <input type="text" class="form-control" name="name" placeholder="Enter Role name">
             </div>
