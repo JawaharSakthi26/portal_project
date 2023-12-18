@@ -26,7 +26,7 @@
                     <hr>
                     <div class="col-md-12">
                         <label class="form-label fw-normal">Technologies</label>
-                        <p>React, Laravel, MySQl </p>
+                        <p><span class="badge bg-dark">React</span> <span class="badge bg-dark">Laravel</span> <span class="badge bg-dark">MySQl</span></p>
                     </div>
                     <hr>
                     <div class="col-md-12">
@@ -148,7 +148,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-header bg-megna">
-                <h4 class="m-0 text-white">Local Details</h4>
+                <h4 class="m-0 text-white">Demo Details</h4>
             </div>
             <div class="card-body">
                 <div class="row">
