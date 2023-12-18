@@ -91,11 +91,6 @@
                     </div>
                     <hr>
                     <div class="col-md-12">
-                        <label class="form-label fw-normal">Hierarchy Head</label>
-                        <p>User 2</p>
-                    </div>
-                    <hr>
-                    <div class="col-md-12">
                         <label class="form-label fw-normal">Developer</label>
                         <p>User 3, User 4, User 5</p>
                     </div>
