@@ -24,7 +24,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Projects</th>
-                                <th>Platform</th>
+                                <th>Technologies</th>
                                 <th>Development</th>
                                 <th>Tester</th>
                                 <th>Developers</th>
