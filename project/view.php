@@ -54,19 +54,19 @@
                         <p><code class="text-info">https://github.com/</code></p>
                     </div>
                     <hr>
-                    <div class="col-md-12">
-                        <label class="form-label fw-normal">Start Date</label>
-                        <p>12/12/2023</p>
-                    </div>
-                    <hr>
-                    <div class="col-md-12">
-                        <label class="form-label fw-normal">End Date</label>
-                        <p>14/12/2023</p>
-                    </div>
-                    <hr>
-                    <div class="col-md-12">
-                        <label class="form-label fw-normal">Status</label>
-                        <p><span class="label label-success">Active</span></p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="form-label fw-normal">Start Date</label>
+                            <p>12/12/2023</p>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-normal">End Date</label>
+                            <p>14/12/2023</p>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label fw-normal">Status</label>
+                            <p><span class="label label-success">Active</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
