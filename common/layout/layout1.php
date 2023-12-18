@@ -28,7 +28,7 @@
     <div id="main-wrapper">
         <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-dark">
-                <div class="navbar-header">
+                <div class="navbar-header bg-white">
                     <a class="navbar-brand" href="#">
                         <b>
                             <img src="../../assets/images/logo_hamburger.png" alt="homepage" class="w-100"/>
